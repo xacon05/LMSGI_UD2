@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Botones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario de Contacto</h1>
+    <form action="mailto:alsastre@redestb.es" method="post" enctype="text/plain">
+        <p>
+            Apellidos: <input type="text" name="aapp" size="50"><br>
+            Nombre: <input type="text" name="Nombre" size="25"><br>
+            Dirección de correo electrónico: <input type="text" name="email" size="20"><br>
+            ¿Cómo llegó hasta aquí? 
+            <select name="Vias" size="1">
+                <option>Al azar</option>
+                <option>Alguien le indicó el URI de la página</option>
+                <option selected>A través de un programa buscador</option>
+                <option>Mediante un enlace desde otra página</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Enviar"> 
+            <input type="reset" value="Borrar">
+        </p>
+    </form>
+
+    <h2>Tipos de Botones</h2>
+    <ul>
+        <li><strong>Botones submit:</strong> Cuando se activan, los datos del formulario son enviados para su procesamiento.</li>
+        <li><strong>Botones reset:</strong> Restablecen todos los controles a sus valores iniciales.</li>
+        <li><strong>Botones push:</strong> Su funcionamiento depende de scripts asociados con eventos.</li>
+    </ul>
+
+    <h2>Ejemplos de Botones</h2>
+    <form>
+        <p>
+            <input type="submit" value="Enviar (Submit)">
+            <input type="reset" value="Borrar (Reset)">
+            <input type="button" value="Push Button" onclick="alert('Botón push activado!')">
+        </p>
+    </form>
+</body>
+</html>
