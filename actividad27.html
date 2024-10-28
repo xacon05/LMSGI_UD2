@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta al profesorado</title>
+    <style>
+        body {
+            font-family: Verdana;
+            font-size: 10pt;
+            background-color: rgb(0, 128, 128);
+        }
+        legend {
+            font-weight: bold;
+            text-align: center;
+            font-family: Verdana;
+            font-size: 12pt;
+        }
+        label {
+            color: rgb(0, 128, 128);
+            font-weight: bold;
+        }
+        fieldset {
+            background-color: rgb(192, 192, 192);
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Por favor! Si es usted docente, responda a las siguientes cuestiones:</h1>
+    <input type="text" size="100" value="Este formulario se visualizará mejor con navegadores de la última generación" disabled readonly>
+
+    <form action="mailto:alsastre@redestb.es" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>1. Información personal</legend>
+            <label for="aa">Apellidos: </label>
+            <input name="Apellidos" type="text" size="30" id="aa" tabindex="1"><br>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="Nombre" size="20" id="nombre" tabindex="2"><br>
+            <label for="fn">Fecha de nacimiento:</label>
+            <input type="text" name="Nacido" size="8" id="fn" tabindex="3"><br>
+            <label>Sexo: </label>
+            <input type="radio" value="Masculino" name="Sexo" tabindex="4"> Hombre
+            <input type="radio" value="Femenino" name="Sexo" tabindex="5"> Mujer
+        </fieldset>
+
+        <fieldset>
+            <legend>2. Información de contacto</legend>
+            <label for="telefono">Teléfono:</label>
+            <input name="Telefono" size="10" maxlength="10" id="telefono" tabindex="6"><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" size="15" id="email" tabindex="7"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>3. Datos profesionales</legend>
+            <label for="ct">Centro de trabajo:</label>
+            <input type="text" name="Centro" size="30" id="ct" tabindex="12"><br>
+            <label for="localidad">Localidad:</label>
+            <input type="text" name="localidad" size="30" id="localidad" tabindex="13"><br>
+            <label for="es_fun">¿Es funcionario?</label>
+            <input type="checkbox" name="Funcionario" value="ON" id="es_fun" tabindex="14"><br>
+            <label for="nrp">NRP:</label>
+            <input type="password" name="NRP" size="15" id="nrp" tabindex="15"><br>
+            <label for="sn">Seminario/Nivel:</label>
+            <select name="Seminario" id="sn" multiple tabindex="16">
+                <option>Lengua y Literatura</option>
+                <option>Matemáticas</option>
+                <option>Geografía e Historia</option>
+                <option>Biología y Geología</option>
+                <option>Tecnología</option>
+                <option>Física y Química</option>
+                <option>Educación Plástica y Visual</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>4. Por favor, facilítenos la siguiente información:</legend>
+            <label for="Vias">¿Cómo llegó hasta aquí?</label>
+            <select name="Vias" id="Vias" tabindex="17">
+                <option value="Azar">Al azar</option>
+                <option value="URI">Alguien le indicó el URI de la página</option>
+                <option value="Buscador">A través de un programa buscador</option>
+                <option value="Enlace">Mediante un enlace desde otra página</option>
+            </select><br>
+            <label for="comentarios">Introduzca aquí sus comentarios:</label><br>
+            <textarea id="comentarios" name="Comentarios" rows="5" cols="60" tabindex="18"></textarea><br>
+            <label>¿Desearía más información sobre ... ?</label><br>
+            <input type="checkbox" name="Mas" value="audio" checked tabindex="19"> Material audiovisual<br>
+            <input type="checkbox" name="opcion" value="etext" checked tabindex="20"> Electrónicos<br>
+            <input type="checkbox" name="opcion" value="libros" tabindex="21"> Libros de texto<br>
+            <input type="checkbox" name="opcion" value="diseños" tabindex="22"> Diseños curriculares<br>
+            <input type="checkbox" name="opcion" value="leyes" tabindex="23"> Legislación educativa<br>
+        </fieldset>
+
+        <button name="submit" type="submit" tabindex="25">Enviar datos</button>
+        <button name="reset" type="reset" tabindex="26">Borrar datos</button>
+    </form>
+</body>
+</html>
