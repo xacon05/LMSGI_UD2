@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo 2: Iframes Verticales</title>
+    <style>
+        .frame-container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .frame-container iframe {
+            border: none;
+        }
+        .header {
+            height: 30%;
+        }
+        .content {
+            display: flex;
+            height: 70%;
+        }
+        .sidebar {
+            width: 200px;
+        }
+        .main {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="frame-container">
+        <iframe class="header" name="header" src="actividad15,b.html" scrolling="no"></iframe>
+        <div class="content">
+            <iframe class="sidebar" name="sidebar" src="actividad16.html"></iframe>
+            <iframe class="main" name="main" src="actividad15,a.html"></iframe>
+        </div>
+    </div>
+</body>
+</html>
