@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<coleccionDeLibros xmlns="http://www.example.com/coleccion-de-libros">  
+    <libro>  
+        <titulo>El Principito</titulo>  
+        <autor>  
+            <nombre>Antoine</nombre>  
+            <apellido1>de</apellido1>  
+            <apellido2>Saint-Exupéry</apellido2>  
+            <genero>Masculino</genero>  
+        </autor>  
+        <genero>Fábula</genero>  
+        <anoPublicacion>1943</anoPublicacion>  
+        <ISBN>978-3-16-148410-0</ISBN>  
+    </libro>  
+    <libro>  
+        <titulo>Cien años de soledad</titulo>  
+        <autor>  
+            <nombre>Gabriel</nombre>  
+            <apellido1>García</apellido1>  
+            <apellido2>Márquez</apellido2>  
+            <genero>Masculino</genero>  
+        </autor>  
+        <genero>Realismo mágico</genero>  
+        <anoPublicacion>1967</anoPublicacion>  
+        <ISBN>978-3-16-148411-7</ISBN>  
+    </libro>  
+    <libro>  
+        <titulo>1984</titulo>  
+        <autor>  
+            <nombre>George</nombre>  
+            <apellido1>Orwell</apellido1>  
+            <apellido2></apellido2>  
+            <genero>Masculino</genero>  
+        </autor>  
+        <genero>Distopía</genero>  
+        <anoPublicacion>1949</anoPublicacion>  
+        <ISBN>978-0-452-28423-4</ISBN>  
+    </libro>  
+    <libro>  
+        <titulo>Orgullo y prejuicio</titulo>  
+        <autor>  
+            <nombre>Jane</nombre>  
+            <apellido1>Austen</apellido1>  
+            <apellido2></apellido2>  
+            <genero>Femenino</genero>  
+        </autor>  
+        <genero>Romance</genero>  
+        <anoPublicacion>1813</anoPublicacion>  
+        <ISBN>978-0-19-953556-9</ISBN>  
+    </libro>  
+    <libro>  
+        <titulo>La casa de los espíritus</titulo>  
+        <autor>  
+            <nombre>Isabel</nombre>  
+            <apellido1>Allende</apellido1>  
+            <apellido2></apellido2>  
+            <genero>Femenino</genero>  
+        </autor>  
+        <genero>Realismo mágico</genero>  
+        <anoPublicacion>1982</anoPublicacion>  
+        <ISBN>978-1-5011-0172-1</ISBN>  
+    </libro>  
+    <libro>  
+        <titulo>El gran Gatsby</titulo>  
+        <autor>  
+            <nombre>F.</nombre>  
+            <apellido1>Scott</apellido1>  
+            <apellido2>Fitzgerald</apellido2>  
+            <genero>Masculino</genero>  
+        </autor>  
+        <genero>Tragedia</genero>  
+        <anoPublicacion>1925</anoPublicacion>  
+        <ISBN>978-0-7432-7356-5</ISBN>  
+    </libro>  
+    <libro>  
+        <titulo>Un mundo feliz</titulo>  
+        <autor>  
+            <nombre>Aldous</nombre>  
+            <apellido1>Huxley</apellido1>  
+            <apellido2></apellido2>  
+            <genero>Masculino</genero>  
+        </autor>  
+        <genero>Distopía</genero>  
+        <anoPublicacion>1932</anoPublicacion>  
+        <ISBN>978-0-06-085052-4</ISBN>  
+    </libro>  
+    <libro>  
+        <titulo>Los miserables</titulo>  
+        <autor>  
+            <nombre>Victor</nombre>  
+            <apellido1>Hugo</apellido1>  
+            <apellido2></apellido2>  
+            <genero>Masculino</genero>  
+        </autor>  
+        <genero>Novela histórica</genero>  
+        <anoPublicacion>1862</anoPublicacion>  
+        <ISBN>978-0-19-953854-6</ISBN>  
+    </libro>  
+    <libro>  
+        <titulo>Fahrenheit 451</titulo>  
+        <autor>  
+            <nombre>Ray</nombre>  
+            <apellido1>Bradbury</apellido1>  
+            <apellido2></apellido2>  
+            <genero>Masculino</genero>  
+        </autor>  
+        <genero>Ciencia ficción</genero>  
+        <anoPublicacion>1953</anoPublicacion>  
+        <ISBN>978-1-4516-7321-9</ISBN>  
+    </libro>  
+    <libro>  
+        <titulo>El alquimista</titulo>  
+        <autor>  
+            <nombre>Paulo</nombre>  
+            <apellido1>Coelho</apellido1>  
+            <apellido2></apellido2>  
+            <genero>Masculino</genero>  
+        </autor>  
+        <genero>Ficción</genero>  
+        <anoPublicacion>1988</anoPublicacion>  
+        <ISBN>978-0-06-112241-5</ISBN>  
+    </libro>  
+</coleccionDeLibros>
